@@ -4,6 +4,7 @@ body {
     font-family: Calibri, Arial, sans-serif;
     font-size: 150%;
     margin: 0; /* keep this */
+
 }
 
 header, h1 < header {
@@ -18,52 +19,36 @@ h1{
 
 }
 
-
-#cougar {
-    clear: both;
-    background: #B26219;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+#content{
+  float: right;
+  width: 80%;
+  margin: auto;
 
 }
 
-#lion {
+#left{
 
-    background: #FFD5AE;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  float: right;
+  width: 20%
 }
 
-#tiger {
 
-    background: #FFBD82;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
-article {
-    width: 800px;
-    padding: 50px 60px;
-    border: 1px solid;
-    background: #fff;
-    margin: 50px auto;
-    color: #000;
-
-}
 
 h2, section > p {
-  text-align: center;
+  text-align: left;
+
 }
 
 img {
+
     display: block;
     margin: auto;
+
 }
 
 footer {
+    clear: both;
     text-align: center;
     padding: 10px;
 
